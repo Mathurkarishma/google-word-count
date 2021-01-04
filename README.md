@@ -60,7 +60,7 @@ To get a local copy up and running, download the `google-frequency.py` and the t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The code is currently reading the `Google_Mar2009.txt` file. IDLE will output the following _(only showing the top 10)_ :
+The code is currently reading the `Google_Mar2009.txt` file. IDLE will output the following _(only showing the top 10 in the image)_ :
 
 <img src="images/Mar2009.JPG" alt="Mar2009">
 
