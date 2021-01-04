@@ -60,14 +60,20 @@ To get a local copy up and running, download the `google-frequency.py` and the t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Using the `Google_June1999.txt` file in IDLE:
+Using the `Google_Mar2009.txt` file in IDLE will output:
 
-<img src="images/June1999.JPG" alt="June1999">
+<img src="images/Mar2009.JPG" alt="Mar2009">
+
+
+Modify the code to use another .txt file in the below line.
+
+Mar2009 File:  `s = open('Google_Mar2009.txt', encoding="utf8").read()` <br />
+June1999 File:  `s = open('Google_June1999.txt', encoding="utf8").read()`
+
 
 Using the `Google_Oct2019.txt` file in Command Prompt:
 
 `>>python3 google-frequency.py` <br />
-`>>Enter the file name: Google_Oct2019.txt` <br />
 `>>`
 
 <!-- CONTACT -->
