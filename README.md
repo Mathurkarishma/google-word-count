@@ -55,12 +55,12 @@ Need to figure out if you're being too repetitive?  Curious if you overuse words
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running, download the `google-frequency.py` and the text input files, `Google_June1999.txt`, `Google_Mar2009.txt`, and `Google_Oct2019.txt` into the same folder. Then run the code in an IDE software, such as IDLE, or in Command Prompt.
+To get a local copy up and running, download the `google-frequency.py` and the text input files, `Google_June1999.txt`, `Google_Mar2009.txt`, and `Google_Oct2019.txt` into the same folder. Then run the code in an IDE software, such as IDLE.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Using the `Google_Mar2009.txt` file in IDLE will output:
+Using the `Google_Mar2009.txt` file in IDLE will output _(only showing the top 10)_:
 
 <img src="images/Mar2009.JPG" alt="Mar2009">
 
@@ -69,12 +69,6 @@ Modify the code to use another .txt file in the below line.
 
 Mar2009 File:  `s = open('Google_Mar2009.txt', encoding="utf8").read()` <br />
 June1999 File:  `s = open('Google_June1999.txt', encoding="utf8").read()`
-
-
-Using the `Google_Oct2019.txt` file in Command Prompt:
-
-`>>python3 google-frequency.py` <br />
-`>>`
 
 <!-- CONTACT -->
 ## Contact
