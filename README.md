@@ -65,13 +65,13 @@ The code is currently reading the `Google_Mar2009.txt` file. IDLE will output th
 <img src="images/Mar2009.JPG" alt="Mar2009">
 
 
-Modify the code to use another .txt file in the below line.
+Modify the code to use another .txt file as shown below.
 
-__Current:__ </br >
+__Transition from the current file:__ </br >
 `s = open('Google_Mar2009.txt', encoding="utf8").read()` <br />
 </br >
 
-__Use the Google_June1999 File:__ </br >
+__To the Google_June1999 File:__ </br >
 `s = open('Google_June1999.txt', encoding="utf8").read()`
 
 <!-- CONTACT -->
