@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Need to figure out if you're being too repetitive?  Curious if you overuse words?  Or did your boss just ask you for the most frequently used terms in a wordy file?  Let's find out how to get a word count of the top 50 words in a few files.  This code we are using has been modified from Tony Donaldson.
+Need to figure out if you're being too repetitive?  Curious if you overuse words?  Or did your boss just ask you for the most frequently used terms in a wordy file?  Let's find out how to get a word count of the top 50 words in a few files.  Also find out the number of characters, lines, total words, and unique words in the file.  This code we are using has been modified from Tony Donaldson.
 
 ### Built With
 
@@ -60,15 +60,19 @@ To get a local copy up and running, download the `google-frequency.py` and the t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Using the `Google_Mar2009.txt` file in IDLE will output _(only showing the top 10)_:
+The code is currently reading the `Google_Mar2009.txt` file. IDLE will output the following _(only showing the top 10)_ :
 
 <img src="images/Mar2009.JPG" alt="Mar2009">
 
 
 Modify the code to use another .txt file in the below line.
 
-Mar2009 File:  `s = open('Google_Mar2009.txt', encoding="utf8").read()` <br />
-June1999 File:  `s = open('Google_June1999.txt', encoding="utf8").read()`
+__Current:__ </br >
+`s = open('Google_Mar2009.txt', encoding="utf8").read()` <br />
+</br >
+
+__Use the Google_June1999 File:__ </br >
+`s = open('Google_June1999.txt', encoding="utf8").read()`
 
 <!-- CONTACT -->
 ## Contact
